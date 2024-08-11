@@ -22,7 +22,7 @@ jobs:
         with:
           source-directory: "output"
           destination-github-username: "hyunha95"
-          destination-repository-name: "pulse-web"
+          destination-repository-name: "pulse-web-nextjs"
           user-email: ${{ secrets.OFFICIAL_ACCOUNT_EMAIL }}
           commit-message: ${{ github.event.commits[0].message }}
           target-branch: main
